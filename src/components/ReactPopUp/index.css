@@ -1,0 +1,61 @@
+.trigger-button {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70vw;
+  margin: 10px;
+  padding: 20px;
+  background: #64748b;
+  box-shadow: 0px 4px 16px 0px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+.popup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.modal-container {
+  height: 30vh;
+  background-size: cover;
+  margin: 0px;
+}
+.close-button {
+  background: #93c5fd;
+  border: 0px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 20px;
+  color: #ffffff;
+  font-family: "Roboto";
+  cursor: pointer;
+}
+.user-details-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #150b3e;
+}
+.name {
+  font-family: "Roboto";
+  font-weight: 700;
+  color: #ffffff;
+}
+.name-initial {
+  background: #93c5fd;
+  border-radius: 35px;
+  color: #ffffff;
+  font-family: "Roboto";
+  height: 45px;
+  width: 45px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  padding: 12px;
+  border: 0px;
+  font-weight: 700;
+  outline: none;
+}
